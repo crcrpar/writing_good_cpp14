@@ -28,3 +28,7 @@ jobs:
       run: |
         go get github.com/bazelbuild/bazelisk
         which bazelisk
+
+    - name: Build
+      run: |
+        bazelisk --strict build //...
