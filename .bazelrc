@@ -1,0 +1,3 @@
+build:linux --cxxopt=-std=c++14
+build:linux --host_cxxopt=-std=c++14
+build:linux --copt=-W
